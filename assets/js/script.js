@@ -24,7 +24,7 @@
  function clearFields() {
     document.getElementById("first number").value = "";
     document.getElementById("second number").value = "";
-    document.getElementById("operator").value = "+";
+    document.getElementById("operator").value = "";
     document.getElementById("answer").textContent = "0";
     document.getElementById("answer").style.color = "black";
 }
