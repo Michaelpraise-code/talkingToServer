@@ -42,6 +42,12 @@
         button:hover {
             background-color: #2980b9;
         }
+        .clear-btn {
+            background-color: #e74c3c;
+        }
+        .clear-btn:hover {
+            background-color: #c0392b;
+        }
         #answer {
             font-size: 24px;
             font-weight: bold;
@@ -63,10 +69,11 @@
         <option value="/">/</option>
     </select>
     <button onclick="calculate()">calculate</button>
-    <h2 id="answer"></h2>
+    <button class="clear-btn" onclick="clearFields()">Clear</button>
+    <center>
+        <h2>Result:<span id="answer">0</span> </h2>
+    </center>
     </div>
-
-
 
     <script src="assets/js/script.js"></script>
 </body>
